@@ -1,0 +1,248 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* contact */
+}
+
+* .header_txt_little, * .about .about_txt_little, * .about .about_list li, * .brand h4 {
+  font-style: italic;
+  font-size: 24px;
+  line-height: 42px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+* .about .about_md_txt, * .brand h3, * .otherwork .otherwork_title, * footer h3 {
+  font-size: 64px;
+  line-height: 75px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+}
+
+* .container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+* .header {
+  background-image: url(../img/photo-1552393700-42696fb89bfa.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 960px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 64px;
+}
+
+* .header_content {
+  color: #ffffff;
+  margin-top: 100px;
+}
+
+* .header_txt_little {
+  font-weight: 700;
+}
+
+* .header_txt_large {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 80px;
+  line-height: 94px;
+  margin-bottom: 32px;
+}
+
+* .header_txt_intro {
+  margin-bottom: 64px;
+  margin-left: 15px;
+}
+
+* .media {
+  margin-left: 15px;
+}
+
+* .media_icon {
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+* .about {
+  color: #000;
+}
+
+* .about .about_md_txt {
+  margin-bottom: 40px;
+}
+
+* .about .about_img {
+  margin-bottom: 24px;
+}
+
+* .about .about_content {
+  padding-bottom: 24px;
+}
+
+* .about .about_txt_little {
+  margin-bottom: 8px;
+}
+
+* .about .about_list {
+  width: 384px;
+  border-top: 1px solid #000;
+  margin: 0 auto;
+  padding-top: 33px;
+  margin-bottom: 24px;
+}
+
+* .about .about_list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 32px;
+}
+
+* .about .about_list li .circle {
+  width: 22px;
+  height: 22px;
+  background: #981818;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+* .brand {
+  background: #000;
+  color: #fff;
+}
+
+* .brand img {
+  vertical-align: middle;
+}
+
+* .brand h3 {
+  padding-top: 64px;
+  margin-bottom: 16px;
+}
+
+* .brand h4 {
+  margin-bottom: 32px;
+}
+
+* .brand .brand_txt_title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 42px;
+  margin-bottom: 48px;
+}
+
+* .brand .brand_img_alone {
+  margin-bottom: 40px;
+}
+
+* .brand .brand_img_content {
+  margin-right: 24px;
+}
+
+* .brand .brand_img {
+  padding-bottom: 160px;
+  margin-bottom: 75px;
+}
+
+* .otherwork {
+  position: relative;
+}
+
+* .otherwork .otherwork_text {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 42px;
+  margin-bottom: 48px;
+}
+
+* .otherwork .otherwork_list {
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 2;
+}
+
+* .otherwork .otherwork_list p {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 42px;
+}
+
+* .otherwork .otherwork_list img {
+  display: block;
+  margin-bottom: 16px;
+}
+
+* .otherwork .top {
+  margin-bottom: 56px;
+}
+
+* .otherwork .middle {
+  margin-bottom: 56px;
+}
+
+* .otherwork .bottom {
+  padding-bottom: 162px;
+}
+
+* .otherwork .otherwork_banner {
+  background-image: url(../img/photo-1561291386-5be50364cfb5.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1558px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+* .contact {
+  color: #fff;
+  background: #000;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+* .contact_info {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+* footer h3 {
+  margin-bottom: 16px;
+}
+/*# sourceMappingURL=design.css.map */

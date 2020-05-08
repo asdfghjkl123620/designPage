@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+
+  //css共有樣式提供繼承
+  %small-txt {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 42px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+  }
+  %middle-txt {
+    font-size: 64px;
+    line-height: 75px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+  }
+  .container {
+    text-align: center;
+    margin: 0 auto;
+  }
+  //css共有樣式提供繼承
+
+  .header {
+    background-image: url(../img/photo-1552393700-42696fb89bfa.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+  }
+  //頭部區塊整體內容樣式
+  .header_content {
+    color: #ffffff;
+    margin-top: 100px;
+  }
+  //頭部區塊整體內容樣式
+  //頭部文字內容樣式
+  .header_txt_little {
+    @extend %small-txt;
+    font-weight: 700;
+  }
+  .header_txt_large {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 80px;
+    line-height: 94px;
+    margin-bottom: 32px;
+  }
+
+  .header_txt_intro {
+    margin-bottom: 64px;
+    margin-left: 15px;
+  }
+
+  .media {
+    margin-left: 15px;
+  }
+  .media_icon {
+    margin-right: 16px;
+    text-decoration: none;
+  }
+
+  //關於區域
+  .about {
+    color: #000;
+    .about_md_txt {
+      @extend %middle-txt;
+      margin-bottom: 40px;
+    }
+    .about_img {
+      margin-bottom: 24px;
+    }
+    .about_content {
+      padding-bottom: 24px;
+    }
+    .about_txt_little {
+      margin-bottom: 8px;
+      @extend %small-txt;
+    }
+    .about_list {
+      width: 384px;
+      border-top: 1px solid #000;
+      margin: 0 auto;
+      padding-top: 33px;
+      margin-bottom: 24px;
+    }
+    .about_list li {
+      @extend %small-txt;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 32px;
+      .circle {
+        width: 22px;
+        height: 22px;
+        background: #981818;
+        border-radius: 50%;
+        margin-right: 16px;
+      }
+    }
+  }
+
+  //品牌區域
+  .brand {
+    background: #000;
+    color: #fff;
+    img {
+      vertical-align: middle;
+    }
+    h3 {
+      padding-top: 64px;
+      margin-bottom: 16px;
+      @extend %middle-txt;
+    }
+    h4 {
+      @extend %small-txt;
+      margin-bottom: 32px;
+    }
+    .brand_txt_title {
+      font-family: Roboto;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 42px;
+      margin-bottom: 48px;
+    }
+    .brand_img_alone {
+      margin-bottom: 40px;
+    }
+    .brand_img_content {
+      margin-right: 24px;
+    }
+    .brand_img {
+      padding-bottom: 160px;
+      margin-bottom: 75px;
+    }
+  }
+
+  //作品介紹
+  .otherwork {
+    position: relative;
+    .otherwork_title {
+      @extend %middle-txt;
+    }
+    .otherwork_text {
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 42px;
+      margin-bottom: 48px;
+    }
+    .otherwork_list {
+      width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      z-index: 2;
+      p {
+        color: #fff;
+        font-family: Roboto;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 20px;
+        line-height: 42px;
+      }
+      img {
+        display: block;
+        margin-bottom: 16px;
+      }
+    }
+    .top {
+      margin-bottom: 56px;
+    }
+    .middle {
+      margin-bottom: 56px;
+    }
+    .bottom {
+      padding-bottom: 162px;
+    }
+    .otherwork_banner {
+      background-image: url(../img/photo-1561291386-5be50364cfb5.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 1558px;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      z-index: -1;
+    }
+  }
+  //表尾區域
+  /* contact */
+  .contact {
+    color: #fff;
+    background: #000;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  .contact_info {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+  footer h3 {
+    @extend %middle-txt;
+    margin-bottom: 16px;
+  }
+}
